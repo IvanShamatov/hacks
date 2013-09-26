@@ -13,6 +13,7 @@ module CarrierWave
         # p.remote_file_url = "ftp://username:password@host:port/path_to_file"
         # => "ftp://username:password@host:port/path_to_file" 
         # p.save
+        # 
         def http?
           @uri.scheme =~ /^(?:ftp|https?)$/
         end
