@@ -10,3 +10,4 @@ Hacks and tricks I built and/or found useful to save.
 * [carrierwave_string.rb](carrierwave_string.rb) — ability to send string using carrierwave uploader.
 * [blocking_queue.rb](blocking_queue.rb) — Subclassing queue, if you want to enable or disable ability to add object in queue
 * [hash.rb](hash.rb) — Additional hash methods, extending base functionality.
+* [union.rb](union.rb) — Way to use UNION query with scopes.
